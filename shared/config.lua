@@ -26,13 +26,13 @@ Config.Drogue = {
 ----------------------------
 Config.Weed = {
     WeedRecolte = {
-        vector3(2222.99, 5578.1, 53.72)
+        vector3(-- POSITION A METTRE EN VECTOR3)
     },
     WeedTraitement = {
-        vector3(2193.44, 5595.38, 53.76)
+        vector3(-- POSITION A METTRE EN VECTOR3)
     },
     WeedVente = {
-        vector3(2461.16, 1589.43, 33.05)
+        vector3(-- POSITION A METTRE EN VECTOR3)
     },
     WeedRecolteItem = "weed", -- Item à récolter
     WeedRecolteItemLabel = "Weed", -- Label de l'item récolté
@@ -46,13 +46,13 @@ Config.Weed = {
 -----------------------------
 Config.Opium = {
     OpiumRecolte = {
-        vector3(-1146.66, 4940.67, 222.27)
+        vector3(-- POSITION A METTRE EN VECTOR3)
     },
     OpiumTraitement = {
-        vector3(-481.387, 6265.81, 13.63469)
+        vector3(-- POSITION A METTRE EN VECTOR3)
     },
     OpiumVente = {
-        vector3(-1600.55, 5204.2, 4.31)
+        vector3(-- POSITION A METTRE EN VECTOR3)
     },
     OpiumRecolteItem = "opium", -- Item à récolter
     OpiumRecolteItemLabel = "Opium", -- Label de l'item récolté
@@ -65,13 +65,13 @@ Config.Opium = {
 ----------------------------
 Config.Meth = {
     MethRecolte = {
-        vector3(831.35, -2333.34, 30.33)
+        vector3(-- POSITION A METTRE EN VECTOR3)
     },
     MethTraitement = {
-        vector3(1509.34, -2102.92, 76.61)
+        vector3(-- POSITION A METTRE EN VECTOR3)
     },
     MethVente = {
-        vector3(-1630.36, -969.24, 7.79)
+        vector3(-- POSITION A METTRE EN VECTOR3)
     },
     MethRecolteItem = "meth", -- Item à récolter
     MethRecolteItemLabel = "Methamphétamine", -- Label de l'item récolté
