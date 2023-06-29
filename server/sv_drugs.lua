@@ -4,8 +4,8 @@ TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 ----------------------------
 ----------\/Weed/\----------
 ----------------------------
-RegisterServerEvent('deltazz-drugs:weedrecolte')
-AddEventHandler('deltazz-drugs:weedrecolte', function()
+RegisterServerEvent('lucas-drugs:weedrecolte')
+AddEventHandler('lucas-drugs:weedrecolte', function()
     local _src = source
     local xPlayer = ESX.GetPlayerFromId(_src)
     local itemweed = Config.Weed.WeedRecolteItem
@@ -19,8 +19,8 @@ AddEventHandler('deltazz-drugs:weedrecolte', function()
     end
 end)
 
-RegisterServerEvent('deltazz-drugs:weedtraitement')
-AddEventHandler('deltazz-drugs:weedtraitement', function()
+RegisterServerEvent('lucas-drugs:weedtraitement')
+AddEventHandler('lucas-drugs:weedtraitement', function()
     local _src = source
     local xPlayer = ESX.GetPlayerFromId(_src)
     local itemweed_give = Config.Weed.WeedTraitementItem
@@ -45,8 +45,8 @@ AddEventHandler('deltazz-drugs:weedtraitement', function()
 end)
 
 
-RegisterServerEvent('deltazz-drugs:weedvente')
-AddEventHandler('deltazz-drugs:weedvente', function()
+RegisterServerEvent('lucas-drugs:weedvente')
+AddEventHandler('lucas-drugs:weedvente', function()
     local _src = source
     local xPlayer = ESX.GetPlayerFromId(_src)
     local blackMoney	= xPlayer.getAccount('dirtycash')
@@ -73,8 +73,8 @@ end)
 -----------------------------
 ----------\/Opium/\----------
 -----------------------------
-RegisterServerEvent('deltazz-drugs:opiumrecolte')
-AddEventHandler('deltazz-drugs:opiumrecolte', function()
+RegisterServerEvent('lucas-drugs:opiumrecolte')
+AddEventHandler('lucas-drugs:opiumrecolte', function()
     local _src = source
     local xPlayer = ESX.GetPlayerFromId(_src)
     local itemOpium = Config.Opium.OpiumRecolteItem
@@ -88,8 +88,8 @@ AddEventHandler('deltazz-drugs:opiumrecolte', function()
     end
 end)
 
-RegisterServerEvent('deltazz-drugs:opiumtraitement')
-AddEventHandler('deltazz-drugs:opiumtraitement', function()
+RegisterServerEvent('lucas-drugs:opiumtraitement')
+AddEventHandler('lucas-drugs:opiumtraitement', function()
     local _src = source
     local xPlayer = ESX.GetPlayerFromId(_src)
     local itemOpium_give = Config.Opium.OpiumTraitementItem
@@ -114,8 +114,8 @@ AddEventHandler('deltazz-drugs:opiumtraitement', function()
 end)
 
 
-RegisterServerEvent('deltazz-drugs:opiumvente')
-AddEventHandler('deltazz-drugs:opiumvente', function()
+RegisterServerEvent('lucas-drugs:opiumvente')
+AddEventHandler('lucas-drugs:opiumvente', function()
     local _src = source
     local xPlayer = ESX.GetPlayerFromId(_src)
     local blackMoney	= xPlayer.getAccount('dirtycash')
@@ -142,8 +142,8 @@ end)
 ----------------------------
 ----------\/Meth/\----------
 ----------------------------
-RegisterServerEvent('deltazz-drugs:methrecolte')
-AddEventHandler('deltazz-drugs:methrecolte', function()
+RegisterServerEvent('lucas-drugs:methrecolte')
+AddEventHandler('lucas-drugs:methrecolte', function()
     local _src = source
     local xPlayer = ESX.GetPlayerFromId(_src)
     local itemMeth = Config.Meth.MethRecolteItem
@@ -157,8 +157,8 @@ AddEventHandler('deltazz-drugs:methrecolte', function()
     end
 end)
 
-RegisterServerEvent('deltazz-drugs:methtraitement')
-AddEventHandler('deltazz-drugs:methtraitement', function()
+RegisterServerEvent('lucas-drugs:methtraitement')
+AddEventHandler('lucas-drugs:methtraitement', function()
     local _src = source
     local xPlayer = ESX.GetPlayerFromId(_src)
     local itemMeth_give = Config.Meth.MethTraitementItem
@@ -183,8 +183,8 @@ AddEventHandler('deltazz-drugs:methtraitement', function()
 end)
 
 
-RegisterServerEvent('deltazz-drugs:methvente')
-AddEventHandler('deltazz-drugs:methvente', function()
+RegisterServerEvent('lucas-drugs:methvente')
+AddEventHandler('lucas-drugs:methvente', function()
     local _src = source
     local xPlayer = ESX.GetPlayerFromId(_src)
     local blackMoney	= xPlayer.getAccount('dirtycash')
