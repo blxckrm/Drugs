@@ -1,4 +1,4 @@
-print('^1Made by ^7unknown#9999 ^3for ExodiaRP')
+print('^1Made by ^7lucas ^3for L.A Shop')
 
 local ESX = nil
 local PlayerData = {}
@@ -72,7 +72,7 @@ function OpenWeedRecolte()
                     Config.Param.load = Config.Param.load + 0.0020
                 else
                     Config.Param.load = 0
-                    TriggerServerEvent('deltazz-drugs:weedrecolte')
+                    TriggerServerEvent('lucas-drugs:weedrecolte')
                 end
             end)
 
@@ -121,7 +121,7 @@ function OpenWeedTraitement()
                     Config.Param.load = Config.Param.load + 0.0020
                 else
                     Config.Param.load = 0
-                    TriggerServerEvent('deltazz-drugs:weedtraitement')
+                    TriggerServerEvent('lucas-drugs:weedtraitement')
                 end
             end)
 
@@ -170,7 +170,7 @@ function OpenWeedVente()
                     Config.Param.load = Config.Param.load + 0.0020
                 else
                     Config.Param.load = 0
-                    TriggerServerEvent('deltazz-drugs:weedvente')
+                    TriggerServerEvent('lucas-drugs:weedvente')
                 end
             end)
 
@@ -221,7 +221,7 @@ function OpenOpiumRecolte()
                     Config.Param.load = Config.Param.load + 0.0020
                 else
                     Config.Param.load = 0
-                    TriggerServerEvent('deltazz-drugs:opiumrecolte')
+                    TriggerServerEvent('lucas-drugs:opiumrecolte')
                 end
             end)
 
@@ -270,7 +270,7 @@ function OpenOpiumTraitement()
                     Config.Param.load = Config.Param.load + 0.0020
                 else
                     Config.Param.load = 0
-                    TriggerServerEvent('deltazz-drugs:opiumtraitement')
+                    TriggerServerEvent('lucas-drugs:opiumtraitement')
                 end
             end)
 
@@ -319,7 +319,7 @@ function OpenOpiumVente()
                     Config.Param.load = Config.Param.load + 0.0020
                 else
                     Config.Param.load = 0
-                    TriggerServerEvent('deltazz-drugs:opiumvente')
+                    TriggerServerEvent('lucas-drugs:opiumvente')
                 end
             end)
 
@@ -370,7 +370,7 @@ function OpenMethRecolte()
                     Config.Param.load = Config.Param.load + 0.0020
                 else
                     Config.Param.load = 0
-                    TriggerServerEvent('deltazz-drugs:methrecolte')
+                    TriggerServerEvent('lucas-drugs:methrecolte')
                 end
             end)
 
@@ -419,7 +419,7 @@ function OpenMethTraitement()
                     Config.Param.load = Config.Param.load + 0.0020
                 else
                     Config.Param.load = 0
-                    TriggerServerEvent('deltazz-drugs:methtraitement')
+                    TriggerServerEvent('lucas-drugs:methtraitement')
                 end
             end)
 
@@ -468,7 +468,7 @@ function OpenMethVente()
                     Config.Param.load = Config.Param.load + 0.0020
                 else
                     Config.Param.load = 0
-                    TriggerServerEvent('deltazz-drugs:methvente')
+                    TriggerServerEvent('lucas-drugs:methvente')
                 end
             end)
 
