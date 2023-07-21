@@ -1,9 +1,6 @@
 local ESX = nil
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
-----------------------------
-----------\/Weed/\----------
-----------------------------
 RegisterServerEvent('lucas-drugs:weedrecolte')
 AddEventHandler('lucas-drugs:weedrecolte', function()
     local _src = source
@@ -70,9 +67,6 @@ AddEventHandler('lucas-drugs:weedvente', function()
     end
 end)
 
------------------------------
-----------\/Opium/\----------
------------------------------
 RegisterServerEvent('lucas-drugs:opiumrecolte')
 AddEventHandler('lucas-drugs:opiumrecolte', function()
     local _src = source
@@ -139,9 +133,7 @@ AddEventHandler('lucas-drugs:opiumvente', function()
     end
 end)
 
-----------------------------
-----------\/Meth/\----------
-----------------------------
+
 RegisterServerEvent('lucas-drugs:methrecolte')
 AddEventHandler('lucas-drugs:methrecolte', function()
     local _src = source
