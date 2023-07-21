@@ -4,6 +4,7 @@ local AeroEvent = TriggerServerEvent
 --- Created by Dylan Malandain.
 --- DateTime: 21/04/2019 21:20
 ---
+print("^3 Made by Lucas | cfxhosting.fr")
 
 ---round
 ---@param num number
